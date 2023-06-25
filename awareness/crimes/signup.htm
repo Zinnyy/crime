@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="siginup.css" />
+    <title>Signup</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="signup image">
+        <div class="account">
+          <h2>Already have an account?</h2>
+          <p><a href="login.html">Click here to login</a></p>
+        </div>
+      </div>
+
+      <div class="registration">
+        <div class="input-box">
+          <header>Create Account</header>
+
+          <form action="" class="form">
+            <div class="input-field">
+              <input type="text" id="First-Name" required />
+              <label for="First-Name"><span>First Name </span></label>
+              <br />
+            </div>
+
+            <div class="input-field">
+              <input type="text" name="" id="last-name" required />
+              <label for="last-name"><span>Last Name</span></label>
+              <br />
+            </div>
+
+            <div class="input-field">
+              <input type="text" id="gender" required />
+              <label for="gender"><span>Gender</span></label>
+              <br />
+            </div>
+
+            <div class="input-field">
+              <input type="email" id="email" required />
+              <label for="email"><span>Email</span></label>
+            </div>
+            <br />
+
+            <div class="input-field">
+              <input type="password" id="password" required />
+              <label for="password"><span>Password</span></label>
+            </div>
+            <br />
+
+            <div class="input-field">
+              <input type="number" id="number" maxlength="11" required />
+              <label for="number"><span>Phone Number</span></label>
+            </div>
+          </form>
+          <button class="submit">REGISTER</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="signup.js"></script>
+  </body>
+</html>

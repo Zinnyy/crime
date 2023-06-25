@@ -1,0 +1,191 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="descrip.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="imgg">
+
+    </div>
+    <div class="registration">
+
+      <div class="input-box">
+        <header>Report The incident</header>
+
+        <form action="" class="form">
+          <div class="input-field">
+            <label for="Description">Description <span>*</span> </span></label>
+            <textarea
+              name="Description"
+              id="Description"
+              cols="30"
+              rows="10"
+            ></textarea>
+            <br />
+          </div>
+
+          <div class="input-field">
+            <label for="Address">Address <span>*</span></label>
+            <textarea
+              name="Address"
+              id="Address"
+              cols="30"
+              rows="10"
+            ></textarea>
+            <br />
+          </div>
+
+          <div class="input-field">
+            <label for="LGA">LGA <span>*</span> </label>
+            <select name="LGA" id="LGA">
+              <option value="LGA" disabled selected hidden>
+                Select your LGA here...
+              </option>
+              <option value="Agege">Agege</option>
+              <option value="Ajeromi-ifelodun">Ajeromi-ifelodun</option>
+              <option value="Alimosho">Alimosho</option>
+              <option value="Amuwo-Odofin">Amuwo-Odofin</option>
+              <option value="Apapa">Apapa</option>
+              <option value="Badagry">Bada]</option>
+              <option value="Epe">Epe</option>
+              <option value="Eti-Osa">Eti-Osa</option>
+              <option value="Ibeju-Lekki">Ibeju-Lekki</option>
+              <option value="Ifako-Ijaiye">Ifako-Ijaiye</option>
+              <option value="Ikeja">Ikeja</option>
+              <option value="Ikorodu">Ikorodu</option>
+              <option value="Kosofe">Kosofe</option>
+              <option value="Lagos Island">Lagos Island</option>
+              <option value="Lagos Mainland">Lagos Mainland</option>
+              <option value="Mushin">Mushin</option>
+              <option value="Ojo">Ojo</option>
+              <option value="Oshodi-Isolo">Oshodi-Isolo</option>
+              <option value="Somolu">Somolu</option>
+              <option value="Surulere">Surulere</option>
+            </select>
+            <br />
+          </div>
+
+          <div class="input-field">
+            <label for="LCDA">LCDA <span>*</span></label>
+            <select name="LCDA" id="LCDA">
+              <option value="LCDA" disabled selected hidden>
+                Your LCDA here ...
+              </option>
+              <option value="agege">
+                Agege Local Council Development Area
+              </option>
+              <option value="agbado">
+                Agbado/Oke-Odo Local Council Development Area
+              </option>
+              <option value="ajeromi">
+                Ajeromi-ifelodun Local Council Development Area
+              </option>
+              <option value="Alimosho">
+                Alimosho Local Council Development Area
+              </option>
+              <option value="Amuwo-Odofin">
+                Amuwo-Odofin Local Council Development Area
+              </option>
+              <option value="Apapa">
+                Apapa-Igamu Local Council Development Area
+              </option>
+              <option value="Badagry">
+                Badagry Local Council Development Area
+              </option>
+              <option value="bariga">
+                Bariga Local Council Development Area
+              </option>
+              <option value="coker">
+                Coker-Aguda Local Council Development Area
+              </option>
+              <option value="egbe">
+                Egbe-Idimu Local Council Development Area
+              </option>
+              <option value="epe">Epe Local Council Development Area</option>
+              <option value="eredo">
+                Eredo Local Council Development Area
+              </option>
+              <option value="Eti-Osa">
+                Eti-Osa Local Council Development Area
+              </option>
+              <option value="iba">Iba Local Council Development Area</option>
+              <option value="Ibeju-Lekki">
+                Ibeju-Lekki Local Council Development Area
+              </option>
+              <option value="Ifako-Ijaiye">
+                Ifako-Ijaiye Local Council Development Area
+              </option>
+              <option value="ifelodun">
+                Ifelodun Local Council Development Area
+              </option>
+              <option value="Igando">
+                Igando-Ikotun Local Council Development Area
+              </option>
+              <option value="Ikeja">
+                Ikeja Local Council Development Area
+              </option>
+              <option value="Ikorodu">
+                Ikorodu Local Council Development Area
+              </option>
+              <option value="Ikosi">
+                Ikosi-Ejirin Local Council Development Area
+              </option>
+              <option value="Imota">
+                Imota Local Council Development Area
+              </option>
+              <option value="east">
+                Lagos Island East Local Council Development Area
+              </option>
+              <option value="island">
+                Lagos Island West Local Council Development Area
+              </option>
+              <option value="Mainland">
+                Lagos Mainland Local Council Development Area
+              </option>
+              <option value="mushin">
+                Mushin Local Council Development Area
+              </option>
+              <option value="Odi-Olowo">
+                Odi-Olowo/Ojuwoye Local Council Development Area
+              </option>
+              <option value="Ojodo">
+                Ojodu Local Council Development Area
+              </option>
+              <option value="Ojokoro">
+                Ojokoro Local Council Development Area
+              </option>
+              <option value="Olorunda">
+                Olorunda Local Council Development Area
+              </option>
+              <option value="Onigbongbo">
+                Onigbongbo Local Council Development Area
+              </option>
+              <option value="Oriade">
+                Oriade Local Council Development Area
+              </option>
+            </select>
+          </div>
+          <br />
+
+          <div class="input-field">
+            <label for="image">Images <span></span></label>
+            <input type="file" id="image" required />
+          </div>
+          <br />
+
+          
+
+          <div class="input-field">
+            <label for="time">Time of Event <span>*</span></label>
+            <input type="date" id="time" />
+          </div>
+        </form>
+        <button class="submit">SUBMIT</button>
+      </div>
+    </div>
+
+    <script src="descrip.js"></script>
+  </body>
+</html>
