@@ -23,7 +23,7 @@ body {
 .image {
   width: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-    url(/crimes/image/crying.jpeg);
+    url(crying.jpeg);
   background-repeat: no-repeat;
   background-size: 100%;
   margin-left: -30px;
