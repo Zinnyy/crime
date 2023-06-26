@@ -9,8 +9,6 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-    url(/image/placard2.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
